@@ -5,6 +5,7 @@ from scipy.stats import ttest_ind
 
 chat_id = 6130040059  # Ваш chat ID, не меняйте название переменной
 
+
 def solution(x: np.array, y: np.array) -> bool:
 
     result = ttest_ind(x, y)
