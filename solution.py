@@ -12,7 +12,7 @@ def solution(x: np.array, y: np.array) -> bool:
 
     alpha = 0.07
 
-    if result[1] > alpha:
+    if result[1] < alpha:
 
         return True
 
