@@ -7,11 +7,8 @@ chat_id = 6130040059  # Ваш chat ID, не меняйте название п�
 
 
 def solution(x: np.array, y: np.array) -> bool:
-
     result = ttest_ind(x, y)
-
     alpha = 0.07
-
     if result[1] < alpha:
 
         return True
